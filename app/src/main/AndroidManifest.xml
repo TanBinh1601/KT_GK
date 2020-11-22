@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.foody">
+    package="com.nghia.pvn.baicuoiky">
 
     <application
         android:allowBackup="true"
@@ -9,11 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".dialy"></activity>
-        <activity android:name=".diadiem" />
-        <activity android:name=".xahoi" />
-        <activity android:name=".Search" />
-        <activity android:name=".NotiSettingActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,13 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity_nofi" />
-        <activity android:name="Adapter.NofiAdapter" />
-
-        <meta-data
-            android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
-
         <activity android:name=".LoginActivity"/>
         <activity android:name=".HoaDonActivity"/>
         <activity android:name=".MoiBBActivity"/>
