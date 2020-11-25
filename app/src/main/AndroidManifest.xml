@@ -36,6 +36,8 @@
         <activity android:name=".ThanhToanActivity"/>
         <activity android:name=".TienThuongActivity"/>
         <activity android:name=".VoucherActivity"/>
+        <activity android:name=".activity_gr"/>
+        <activity android:name=".ProducDetail"/>
     </application>
 
 </manifest>

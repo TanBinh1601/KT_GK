@@ -5,26 +5,28 @@
     android:layout_height="match_parent"
     android:background="#fff">
     <RelativeLayout
+        android:background="#FF0000"
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <EditText
+            android:layout_marginTop="7dp"
+            android:background="#FFFFFF"
+            android:id="@+id/edt"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="top"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:drawableLeft="@drawable/ic_search_black_24dp"
+            android:hint="Địa điểm, món ăn, loại hình..." />
+    </RelativeLayout>
+    <RelativeLayout
         android:id="@+id/layout11"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <RelativeLayout
-            android:background="#FF0000"
-            android:id="@+id/edit"
-            android:layout_width="match_parent"
-            android:layout_height="40dp">
-            <EditText
-                android:layout_marginTop="7dp"
-                android:background="#FFFFFF"
-                android:id="@+id/edt"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="top"
-                android:layout_marginStart="16dp"
-                android:layout_marginEnd="16dp"
-                android:drawableLeft="@drawable/ic_search_black_24dp"
-                android:hint="Địa điểm, món ăn, loại hình..." />
-        </RelativeLayout>
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit">
+
 
         <ImageView
             android:layout_marginTop="10dp"
@@ -33,8 +35,11 @@
             android:layout_marginLeft="10dp"
             android:layout_width="wrap_content"
             android:layout_height="200dp"
-            android:layout_below="@+id/edit"
+
             android:src="@drawable/h1" />
+
+
+
 
         <LinearLayout
             android:id="@+id/layout1"
@@ -136,6 +141,4 @@
         android:layout_height="match_parent"
         android:layout_below="@+id/tab"
         android:layout_marginTop="2dp" />
-
-
 </RelativeLayout>
